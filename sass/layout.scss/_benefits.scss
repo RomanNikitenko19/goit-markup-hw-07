@@ -1,0 +1,71 @@
+
+/* Наши плюсы */
+.weprossection {
+  padding-bottom: 0;
+}
+
+.container .benefits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefits-list-item-first,
+.benefits-list-item-secondary,
+.benefits-list-item-third,
+.benefits-list-item-fourth {
+  width: 270px;
+  fill: var(--secondary-link-color);
+}
+
+.benefits-list-item-first::before {
+  display: block;
+  content: "";
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  background-image: url(../images/antenna1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  fill: var(--primaty-link-color);
+}
+
+.benefits-list-item-secondary::before {
+  display: block;
+  content: "";
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  background-image: url(../images/clock1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.benefits-list-item-third::before {
+  display: block;
+  content: "";
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  background-image: url(../images/diagram1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.benefits-list-item-fourth::before {
+  display: block;
+  content: "";
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  background-image: url(../images/astronaut1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.benefits .marging-list:not(:last-child) {
+  margin-right: 30px;
+}

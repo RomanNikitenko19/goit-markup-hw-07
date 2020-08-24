@@ -1,0 +1,27 @@
+/* H2 */
+
+/* Чем мы занимаемся */
+.wedo .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wedo-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.wedo-list .item {
+  position: relative;
+}
+
+.wedo-list-container {
+  position: absolute;
+
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: var(--bg-secondary-title);
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+

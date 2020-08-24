@@ -1,0 +1,49 @@
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--secondary-title-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.ourteam .text {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.gallery .text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primaty-text-color);
+}
+
+.gallery-work-text-container p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+
+.secondary-container-footer .text,
+.third-container-footer .text {
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
