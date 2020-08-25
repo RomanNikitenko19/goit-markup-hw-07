@@ -15,10 +15,10 @@
 
 .gallery-work .item:hover {
   box-sizing: border-box;
-  background-color: var(--primary-background-color);
+  background-color: $primary-background-color;
 
-  box-shadow: 0px 1px 1px var(--batton-shadow-third), 0px 4px 4px var(--batton-shadow-fourth),
-    1px 4px 6px var(--batton-shadow-fifth);
+  box-shadow: 0px 1px 1px $batton-shadow-third, 0px 4px 4px $batton-shadow-fourth,
+    1px 4px 6px $batton-shadow-fifth;
 }
 
 .gallery-button .item:not(:last-child) {
@@ -38,8 +38,8 @@
   padding-right: 24px;
   padding-bottom: 20px;
 
-  border: 1px solid var(--border-item-gallery-work);
-  background: var(--primary-background-color);
+  border: 1px solid $border-item-gallery-work;
+  background: $primary-background-color;
 }
 
 .gallery-title-padding {
@@ -58,7 +58,7 @@
   height: 100%;
   transform: translateY(100%);
   transition: all 250ms linear;
-  background: var(--bg-gallary-work-t-c);
+  background: $bg-gallary-work-t-c;
 }
 
 .gallery a:hover .gallery-work-text-container {

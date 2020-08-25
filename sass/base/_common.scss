@@ -11,10 +11,10 @@ html {
 }
 
 .page {
-  background-color: var(--primary-beckgound-color);
-  color: var(--primaty-text-color);
+  background-color: $primary-beckgound-color;
+  color: $primaty-text-color;
 
-  font-family: Roboto, sans-serif;
+  font-family: $primeryfonts;
   letter-spacing: 0.03em;
 
   font-size: 14px;
@@ -41,5 +41,5 @@ img {
 }
 
 svg {
-  fill: var(--prime-border-color);
+  fill: $prime-border-color;
 }

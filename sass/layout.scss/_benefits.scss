@@ -14,7 +14,7 @@
 .benefits-list-item-third,
 .benefits-list-item-fourth {
   width: 270px;
-  fill: var(--secondary-link-color);
+  fill: $secondary-link-color;
 }
 
 .benefits-list-item-first::before {
@@ -22,7 +22,7 @@
   content: "";
   margin-bottom: 30px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: &secondary-background-color;
   border-radius: 4px;
   background-image: url(../images/antenna1.svg);
   background-position: center;
@@ -35,7 +35,7 @@
   content: "";
   margin-bottom: 30px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   border-radius: 4px;
   background-image: url(../images/clock1.svg);
   background-position: center;
@@ -47,7 +47,7 @@
   content: "";
   margin-bottom: 30px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   border-radius: 4px;
   background-image: url(../images/diagram1.svg);
   background-position: center;
@@ -59,7 +59,7 @@
   content: "";
   margin-bottom: 30px;
   height: 120px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   border-radius: 4px;
   background-image: url(../images/astronaut1.svg);
   background-position: center;

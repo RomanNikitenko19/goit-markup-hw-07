@@ -12,19 +12,19 @@
   height: 90px;
   border-width: 1px;
   border-style: solid;
-  border-color: var(--icon-color);
+  border-color: $icon-color;
   box-sizing: border-box;
   border-radius: 4px;
 }
 
 .clients a:hover,
 .clients a:focus {
-  border: 1px solid var(--secondary-link-color);
+  border: 1px solid $secondary-link-color;
 }
 
 .clients a:hover svg,
 .clients a:focus svg {
-  fill: var(--secondary-link-color);
+  fill: $secondary-link-color;
 }
 
 .clients-list .item:not(:last-child) {

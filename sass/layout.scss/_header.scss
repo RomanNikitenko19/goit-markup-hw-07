@@ -38,7 +38,7 @@ nav .list {
 
 .header-icon:hover,
 .header-icon:focus {
-  fill: var(--secondary-link-color);
+  fill: $secondary-link-color;
 } 
 
 .item-socialnetworks {
@@ -55,9 +55,9 @@ nav .list {
   height: 30px;
   margin-right: 85px;
 
-  color: var(--secondary-link-color);
+  color: $secondary-link-color;
 
-  font-family: Raleway, sans-serif;
+  font-family: $secondary;
 
   font-weight: 700;
   font-size: 26px;
@@ -65,15 +65,15 @@ nav .list {
 }
 
 .logo-secondary {
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .alternative {
-  color: var(--secondary-title-color);
+  color: $secondary-title-color;
 }
 
 .site-nav .link {
-  color: var(--primaty-link-color);
+  color: $primaty-link-color;
 
   font-weight: 500;
   font-size: 14px;
@@ -94,7 +94,7 @@ nav .list {
   top: 45px;
   border-radius: 2px;
   height: 4px;
-  background-color: var(--secondary-link-color);
+  background-color: $secondary-link-color;
 }
 
 .site-nav .item:not(:last-child) {
@@ -104,7 +104,7 @@ nav .list {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-nav .link.current {
-  color: var(--secondary-link-color);
+  color: $secondary-link-color;
 }
 
 .auth-nav .item:not(:last-child) {
@@ -115,7 +115,7 @@ nav .list {
   margin-left: auto;
 }
 .auth-nav .link {
-  color: var(--primaty-text-color);
+  color: $primaty-text-color;
 
   font-weight: 500;
   font-size: 14px;
@@ -130,11 +130,11 @@ nav .list {
 .auth-nav .link:hover,
 .auth-nav .link:focus,
 .auth-nav .link.current {
-  color: var(--secondary-link-color);
+  color: $secondary-link-color;
 }
 
 .auth-nav .link:hover svg,
 .auth-nav .link:focus svg,
 .auth-nav .link.current {
-  fill: var(--secondary-link-color);
+  fill: $secondary-link-color;
 }
