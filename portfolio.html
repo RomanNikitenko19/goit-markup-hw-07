@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/main.min.css." />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body class="page">
@@ -306,9 +306,17 @@
           </ul>
         </div>
 
-        <!-- <div class="third-container-footer">
-                <p>Подпишитесь на рассылку</p>
-              </div> -->
+        <div class="third-container-footer">
+          <p class="text">Подпишитесь на рассылку</p>
+          <form class="footer-contact-form" method="post">
+            <label class="footer-contact-form-label">
+              <input class="contact-form-input" type="email" name="use-email" placeholder="E-mail" required /></label>
+            <button class="button footer-contact-form-bt" type="submit">Подписаться<svg class="footer-icon-bt">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg></button>
+          </form>
+        </div>
+        
       </div>
     </footer>
   </body>
