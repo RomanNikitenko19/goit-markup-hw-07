@@ -57,11 +57,11 @@
   background-color: $secondary-icon-bgc;
   box-sizing: border-box;
   border-radius: 50%;
-}
 
-.secondary-container-footer a:hover,
-.secondary-container-footer a:focus {
-  background-color: $secondary-link-color;
+  &:hover,
+  &:focus {
+    background-color: $secondary-link-color;
+  }
 }
 
 .footer-contact-form {
@@ -115,3 +115,11 @@
   fill: $primary-background-color;
   padding-left: 10px;
 }
+
+.list-socialnetworks {
+
+ .item:not(:last-child) {
+  margin-right: 10px;
+  }
+}
+

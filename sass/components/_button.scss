@@ -43,6 +43,10 @@
   border: none;
 }
 
+.gallery-button .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .container .gallery-button {
   justify-content: center;
 }

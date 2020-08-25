@@ -14,16 +14,16 @@
   border-color: $icon-color;
   box-sizing: border-box;
   border-radius: 4px;
-}
 
-.clients a:hover,
-.clients a:focus {
-  border: 1px solid $secondary-link-color;
-}
+  &:hover,
+  &:focus {
+    border: 1px solid $secondary-link-color;
+  }
 
-.clients a:hover svg,
-.clients a:focus svg {
-  fill: $secondary-link-color;
+  &:hover svg,
+  &:focus svg {
+    fill: $secondary-link-color;
+  }
 }
 
 .clients-list .item:not(:last-child) {
